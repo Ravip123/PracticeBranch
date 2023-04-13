@@ -17,3 +17,5 @@ Step 5: got to application directory select the address bar -> type cmd
   docker  run -p 8080:8080 amazon-image
 
 Step 6: you can view the output 
+step 7- if f you are defining the ARG within the Dockerfile, for example: ARG JAR_FILE. When you build the image,
+don't forget to include the ARG with its value. For example: docker build --build-arg JAR_FILE=target/*.jar -t [your_tag] 
