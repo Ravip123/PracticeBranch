@@ -1,0 +1,33 @@
+editor -> type and execute the code
+nano vi
+
+sudo su -> for becoming the admin
+
+sudo apt update -> make machine or os updated
+
+sudo apt install apache2
+
+sudo systemctl status apache2
+
+Q -> exit
+
+curl localhost
+
+pwd
+
+cd/var/www/html
+
+ls
+
+index.html
+
+cat index.html
+
+rm index.html
+
+nano index.html -> enter -> editor to type <html> code -> y -> enter
+
+cat index.html
+
+
+copy the ip address of your vm and paste it in browser -> output
